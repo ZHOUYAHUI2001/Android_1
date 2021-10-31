@@ -16,14 +16,14 @@ public class MainActivity extends Activity {
     public String FILE_NAME = "fileDemo.txt";
 
 
-    private String str = "";//保存数字
-    private String strold = "";//原数字
-    private char act = ' ';//记录“加减乘除等于”符号
-    private int count = 0;//判断要计算的次数，如果超过一个符号，先算出来一部分
-    private Float result = null;//计算的输出结果
-    private Boolean errBoolean = false;//有错误的时候为true，无错为false
-    private Boolean flagBoolean = false;//一个标志，如果为true，可以响应运算消息，如果为false，不响应运算消息，只有前面是数字才可以响应运算消息
-    private Boolean flagDot = false; //小数点标志位
+    private String str = "";
+    private String strold = "";
+    private char act = ' ';
+    private int count = 0;
+    private Float result = null;
+    private Boolean errBoolean = false;
+    private Boolean flagBoolean = false;
+    private Boolean flagDot = false;
 
 
 
